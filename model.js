@@ -6,12 +6,9 @@ const moviSchema = new MongooseSchema(
     {
         moviename:String,
         actor:String,
-        actress:String,
+        
         director:String,
-        releaseyear:String,
-        camera:String,
-        producer:String,
-        language:String
+        review:String
 
     }
 )
